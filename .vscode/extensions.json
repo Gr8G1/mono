@@ -1,0 +1,87 @@
+{
+  "recommendations": [
+    // === 필수 개발 도구 ===
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-typescript-next",
+
+    // === Git 관련 ===
+    "eamodio.gitlens",
+    "github.vscode-github-actions",
+    "github.vscode-pull-request-github",
+    "mhutchie.git-graph",
+
+    // === 테마 & 아이콘 ===
+    "akamud.vscode-theme-onedark",
+    "pkief.material-icon-theme",
+    "bracketpaircolordlw.bracket-pair-color-dlw",
+
+    // === 웹 개발 ===
+    "styled-components.vscode-styled-components",
+    "mgmcdermott.vscode-language-babel",
+    "ms-vscode.live-server",
+    "ritwickdey.liveserver",
+
+    // === 코드 유틸리티 ===
+    "christian-kohler.path-intellisense",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.code-runner",
+    "wayou.vscode-todo-highlight",
+    "shardulm94.trailing-spaces",
+    "streetsidesoftware.code-spell-checker",
+    "vincaslt.highlight-matching-tag",
+    "markosth09.color-picker",
+    "vikyd.vscode-fold-level",
+    "zignd.html-css-class-completion",
+
+    // === 파일 형식 지원 ===
+    "redhat.vscode-yaml",
+    "jock.svg",
+    "tomoki1207.pdf",
+    "codezombiech.gitignore",
+
+    // === Python 개발 ===
+    "anysphere.pyright",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.debugpy",
+
+    // === PHP 개발 ===
+    "bmewburn.vscode-intelephense-client",
+
+    // === Kotlin 개발 ===
+    "fwcd.kotlin",
+    "mathiasfrohlich.kotlin",
+
+    // === Java 개발 ===
+    "oracle.oracle-java",
+    "redhat.java",
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-java-debug",
+    "vscjava.vscode-java-dependency",
+    "vscjava.vscode-java-test",
+    "vscjava.vscode-gradle",
+    "vscjava.vscode-maven",
+    "vscjava.vscode-spring-initializr",
+
+    // === 데이터베이스 ===
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-mysql",
+
+    // === DevOps & Docker ===
+    "docker.docker",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers",
+
+    // === AI & IntelliCode ===
+    "openai.chatgpt",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "visualstudioexptteam.vscodeintellicode",
+
+    // === 기타 유틸리티 ===
+    "natizyskunk.sftp",
+    "rubbersheep.gi"
+  ],
+  "unwantedRecommendations": []
+}
