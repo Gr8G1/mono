@@ -1,0 +1,36 @@
+{
+  "name": "@mono/configs-eslint",
+  "version": "1.0.0",
+  "description": "Shared ESLint configuration for monorepo",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "react.js",
+    "node.js",
+    "typescript.js",
+    "react-typescript.js"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.36.0",
+    "@typescript-eslint/parser": "^8.36.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-simple-import-sort": "^12.0.0",
+    "eslint-plugin-react-native": "^4.1.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "typescript": "^5.0.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./react": "./react.js",
+    "./typescript": "./typescript.js",
+    "./react-typescript": "./react-typescript.js"
+  }
+}
