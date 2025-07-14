@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    // === 모듈/트랜스파일 관련 ===
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["ES2020"],
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleDetection": "auto",
+
+    // === 경로/출력 ===
+    "tsBuildInfoFile": "./tsconfig.lib.tsbuildinfo",
+
+    // === 타입/strict 관련 ===
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noUncheckedIndexedAccess": false,
+    "noImplicitOverride": true,
+    "exactOptionalPropertyTypes": false,
+    "isolatedModules": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+
+    // === 호환성/interop ===
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+
+    // === 빌드/소스맵 ===
+    "incremental": true,
+    "composite": true,
+    "removeComments": true
+  }
+}

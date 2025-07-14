@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    // === 모듈/트랜스파일 관련 ===
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-native",
+    "lib": ["ES2020"],
+    "allowImportingTsExtensions": false,
+
+    // === 타입/strict 관련 ===
+    "strict": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "allowUmdGlobalAccess": false,
+
+    // === 호환성/interop ===
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+
+    // === 빌드/소스맵 ===
+    "noEmit": true
+  }
+}
