@@ -1,0 +1,15 @@
+{
+  "name": "@mono/configs-prettier",
+  "version": "1.0.0",
+  "description": "Shared Prettier configuration for monorepo",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "prettier": "^3.0.0"
+  },
+  "exports": {
+    ".": "./index.js"
+  }
+}

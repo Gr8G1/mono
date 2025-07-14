@@ -1,0 +1,24 @@
+{
+  "name": "@mono/assets-fonts",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./fonts/*": "./dist/fonts/*",
+    "./fonts.css": "./dist/fonts.css"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc --build && mkdir -p dist && cp -r src/fonts dist/ && cp src/fonts.css dist/",
+    "lint": "eslint \"src/**/*.{ts,tsx}\""
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

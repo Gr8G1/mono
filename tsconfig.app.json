@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    // === 모듈/트랜스파일 관련 ===
+    "target": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-native",
+    "lib": ["ES2020"],
+    "allowImportingTsExtensions": false,
+
+    // === 타입/strict 관련 ===
+    "strict": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "allowUmdGlobalAccess": false,
+
+    // === 경로/출력 (서브 패스 모듈 선언) ===
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    // === 호환성/interop ===
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolvePackageJsonImports": false,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+
+    // === 빌드/소스맵 ===
+    "noEmit": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@mono/assets-images",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./web": {
+      "types": "./dist/index.web.d.ts",
+      "default": "./dist/index.web.js"
+    },
+    "./native": {
+      "types": "./dist/index.native.d.ts",
+      "default": "./dist/index.native.js"
+    }
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "prebuild": "node scripts/gen-resources.js",
+    "build": "tsc --build && mkdir -p dist && cp -r src/resources dist/",
+    "lint": "eslint \"src/**/*.{ts,tsx}\""
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "react-native-svg": "^15.8.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "react-native-svg-transformer": "^1.5.1"
+  }
+}

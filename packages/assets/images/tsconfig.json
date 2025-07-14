@@ -1,0 +1,14 @@
+{
+  "extends": "../../../tsconfig.lib.json",
+  "compilerOptions": {
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "declaration": true,
+    "declarationDir": "dist",
+    "declarationMap": true,
+    "tsBuildInfoFile": "./tsconfig.assets-images.tsbuildinfo"
+  },
+  "include": ["src/**/*", "@types/*.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}
